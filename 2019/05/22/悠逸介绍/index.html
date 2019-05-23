@@ -59,6 +59,8 @@
 		  <h1 class="header-author"><a href="/">黄浩强</a></h1>
 		</hgroup>
 		
+		<p class="header-subtitle">黄浩强的个人博客</p>
+		
 
 		<nav class="header-menu">
 			<ul>
@@ -71,6 +73,10 @@
     		
     			
     			<a q-on="click: openSlider(e, 'innerArchive')" href="javascript:void(0)">所有文章</a>
+    			
+            
+    			
+    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
     			
             
     			
@@ -106,6 +112,8 @@
 			<hgroup>
 			  <h1 class="header-author js-header-author">黄浩强</h1>
 			</hgroup>
+			
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>黄浩强的个人博客<i class="icon icon-quo-right"></i></p>
 			
 			
 			
@@ -262,6 +270,16 @@
 </article>
 
   
+<nav id="article-nav">
+  
+  
+    <a href="/2019/05/21/我的第一篇博客文章/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">我的第一篇博客文章</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -343,17 +361,25 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
       
     
+      
+      
+      
+    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
-      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
+      
+        
+      
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -416,6 +442,30 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     	</section>
     
 
+    
+    	<section class="tools-section tools-section-friends" q-show="friends">
+  		
+        <ul class="search-ul">
+          
+            <li class="search-li">
+              <a href="http://www.hao123.com/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>hao123</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="http://music.163.com/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>网易云音乐</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="http://www.runoob.com/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>菜鸟教程</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="http://www.imooc.com/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>慕课网</a>
+            </li>
+          
+        </ul>
+  		
+    	</section>
     
 
     
